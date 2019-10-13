@@ -1,0 +1,26 @@
+<html>
+    <hrad>
+    <meta charset="UTF-8">
+    <title>江熙的简单网页应用</title>
+<script>
+var password = prompt("请输入我的密码")
+if (password == '123456'){
+    alert('密码输入正确')
+}else{
+    alert ('密码输入错误')
+}
+
+function color(str){
+    document.body.style.backgroundColor = str;
+}
+</script>
+   </hrad>
+<body>
+<input type="button" value="设为红色" onclick="color('red')">
+<input type="button" value="设为黄色" onclick="color('yellow')">
+<input type="button" value="设为绿色" onclick="color('green')">
+<input type="button" value="设为黑色" onclick="color('black')">
+
+
+</body>
+</html>
