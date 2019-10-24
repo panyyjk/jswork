@@ -1,6 +1,5 @@
-    let odd = document.getElementById('odd').value
-    odd = parseInt(odd);
-    let str = '';
+
+    
 
     function pan(num) {
         var sum = 0;
@@ -19,12 +18,13 @@
     function goldbach(odd) {
         odd = document.getElementById('odd').value
         odd = parseInt(odd);
-
+        let str = '';
         for (var b = 2; b < odd; b++) {
             var c = odd - b;
             if (pan(b) && pan(c) && b <= c) {
-                str += ("偶数" + odd + "可以拆分成质数" + b + "和" + c + '<br>');
+                str += ("偶数" + odd + "可以拆分成质数" + b + "和" + c + '<br>')
             }
+            
         }
         document.getElementById('goldbach').innerHTML = str;
     }
