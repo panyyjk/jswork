@@ -1,6 +1,4 @@
 
-    
-
     function pan(num) {
         var sum = 0;
         for (var d = 1; d <= num; d++) {
