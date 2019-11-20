@@ -24,14 +24,14 @@
       "id": "7f432ba1-29d3-498e-8f8a-ebd45584a356",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'work10')]",
+      "target": "xpath=//a[contains(text(),'work12')]",
       "targets": [
-        ["linkText=work10", "linkText"],
+        ["linkText=work12", "linkText"],
         ["css=a:nth-child(24)", "css:finder"],
-        ["xpath=//a[contains(text(),'work10')]", "xpath:link"],
-        ["xpath=//a[contains(@href, 'work10/index.html')]", "xpath:href"],
+        ["xpath=//a[contains(text(),'work12')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'work12/index.html')]", "xpath:href"],
         ["xpath=//a[12]", "xpath:position"],
-        ["xpath=//a[contains(.,'work10')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'work12')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -102,14 +102,14 @@
       "id": "210dc38f-2daa-4d76-ae7f-7f9f90f5ec66",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'work10')]",
+      "target": "xpath=//a[contains(text(),'work12')]",
       "targets": [
         ["linkText=work10", "linkText"],
         ["css=a:nth-child(24)", "css:finder"],
-        ["xpath=//a[contains(text(),'work10')]", "xpath:link"],
-        ["xpath=//a[contains(@href, 'work10/index.html')]", "xpath:href"],
+        ["xpath=//a[contains(text(),'work12')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'work12/index.html')]", "xpath:href"],
         ["xpath=//a[12]", "xpath:position"],
-        ["xpath=//a[contains(.,'work10')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'work12')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
