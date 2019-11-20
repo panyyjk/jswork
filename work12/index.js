@@ -23,14 +23,10 @@ function monkey(){
 }
 function stat(){
     let str = document.getElementById('str').value
-    let obj = {}
-    for(i=0;i<str.length;i++) {
-        var ch=str.charAt(i);                   
-        if (!obj[ch]) {
-            obj[ch]=1;
-        } else{
-            obj[ch]++;
-        }   
-    }
+    let ok = str.split('').sort()
+    obj = ok.reduce((pre,item) =>{
+        pre[item] ? pre[item]++ : pre[item] = 1
+        return pre 
+    },{})
     document.getElementById('result').innerText = JSON.stringify(obj)
 }
