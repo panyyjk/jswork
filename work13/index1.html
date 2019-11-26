@@ -14,8 +14,19 @@
         <span class="nextyear" id="nextyear" data-year="" onclick="setCalendar(this.dataset.year)"></span>
         <div class="box" id="cal"></div>
     </div>
-
 </body>
+<script>
+var year = new Data().getFullYear()
+var preyear = year-1
+var nextyear = year+1
+document.getElementById('curyear').setAttribute('data-year',year);
+document.getElementById('preyear').setAttribute('data-year',pre);
+document.getElementById('nextyear').setAttribute('data-year',next);
+document.getElementById('curyear').innerText = year
+document.getElementById('preyear').innerText = "<<"+pre
+document.getElementById('nextyear').innerText = next +">>"
+
+</script>
 <script src="calendar.js"></script>
 <script src="index1.js"></script>
 

@@ -18,6 +18,17 @@ body {
 .title {
     background: slategray;
 }
+#upyear{
+    float:left;
+    margin: 0 auto;
+}
+#downyear{
+    float:left;
+    margin: auto;
+}
+#nowyear{
+    margin:auto;
+}
 table {
     height: 160px;
     width: 160px;
